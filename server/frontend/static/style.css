@@ -132,7 +132,7 @@ img{
 
 .container1 {
     display: flex;
-    justify-content: space-between; /* Align items with equal space between them */
+    justify-content: center;
 }
 .card {
     width: 45%; /* Adjust width as needed */
@@ -142,5 +142,13 @@ img {
     height: auto; /* Maintain aspect ratio */
 }
 .details {
-    margin-top: 10px; /* Adjust spacing as needed */
+    align-self: center;
 }
+
+.vertical {
+    border-left: 6px solid red;
+    height: 300px;
+    position:absolute;
+    left: 50%;
+    margin-top: 20px;
+  }
