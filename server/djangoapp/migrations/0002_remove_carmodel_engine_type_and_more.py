@@ -21,6 +21,16 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='carmodel',
             name='car_type',
-            field=models.CharField(choices=[('SEDAN', 'Sedan'), ('SUV', 'SUV'), ('WAGON', 'Wagon'), ('COUPE', 'Coupe'), ('CONVERTIBLE', 'Convertible')], default='SUV', max_length=15),
+            field=models.CharField(
+                choices=[
+                    ('SEDAN', 'Sedan'),
+                    ('SUV', 'SUV'),
+                    ('WAGON', 'Wagon'),
+                    ('COUPE', 'Coupe'),
+                    ('CONVERTIBLE', 'Convertible')
+                ],
+                default='SUV',
+                max_length=15
+            ),
         ),
     ]
